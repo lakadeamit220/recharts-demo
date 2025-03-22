@@ -1,9 +1,10 @@
 import "./App.css";
+import SimpleLineCharts from "./components/SimpleLineCharts";
 
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
+      <SimpleLineCharts />
     </>
   );
 }
