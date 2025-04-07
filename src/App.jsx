@@ -2,6 +2,7 @@ import "./App.css";
 import SimpleAreaChart from "./components/SimpleAreaChart";
 import SimpleBarChart from "./components/SimpleBarChart";
 import SimpleLineChart from "./components/SimpleLineChart";
+import StackedAreaChart from "./components/StackedAreaChart";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <SimpleLineChart />
       <SimpleAreaChart />
       <SimpleBarChart />
+      <StackedAreaChart />
     </>
   );
 }
