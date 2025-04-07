@@ -1,4 +1,5 @@
 import "./App.css";
+import CustomShapeBarChart from "./components/CustomShapeBarChart";
 import SimpleAreaChart from "./components/SimpleAreaChart";
 import SimpleBarChart from "./components/SimpleBarChart";
 import SimpleLineChart from "./components/SimpleLineChart";
@@ -13,6 +14,7 @@ function App() {
       <SimpleBarChart />
       <StackedAreaChart />
       <StackedBarChart />
+      <CustomShapeBarChart />
     </>
   );
 }
