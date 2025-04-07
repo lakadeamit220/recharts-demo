@@ -1,10 +1,12 @@
 import "./App.css";
-import SimpleLineCharts from "./components/SimpleLineCharts";
+import SimpleAreaChart from "./components/SimpleAreaChart";
+import SimpleLineChart from "./components/SimpleLineChart";
 
 function App() {
   return (
     <>
-      <SimpleLineCharts />
+      <SimpleLineChart />
+      <SimpleAreaChart/>
     </>
   );
 }

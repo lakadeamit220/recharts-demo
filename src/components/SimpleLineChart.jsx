@@ -10,7 +10,7 @@ import {
   ResponsiveContainer,
   ReferenceLine,
 } from "recharts";
-//import "bootstrap/dist/css/bootstrap.min.css";
+
 
 const data = [
   { name: "Week 1", sales: 5000, expenses: 3200, profit: 1800, revenue: 6800, advertising: 1000, roi: 1.2 },
@@ -25,7 +25,7 @@ const data = [
   { name: "Week 10", sales: 9200, expenses: 5300, profit: 3900, revenue: 14200, advertising: 4800, roi: 1.2 },
 ];
 
-const SimpleLineCharts = () => {
+const SimpleLineChart = () => {
   return (
     <div className="container mt-5">
       <div className="row">
@@ -63,4 +63,4 @@ const SimpleLineCharts = () => {
   );
 };
 
-export default SimpleLineCharts;
+export default SimpleLineChart;
