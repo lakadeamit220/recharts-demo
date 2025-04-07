@@ -1,4 +1,5 @@
 import "./App.css";
+import BrushBarChart from "./components/BrushBarChart";
 import CustomShapeBarChart from "./components/CustomShapeBarChart";
 import SimpleAreaChart from "./components/SimpleAreaChart";
 import SimpleBarChart from "./components/SimpleBarChart";
@@ -15,6 +16,7 @@ function App() {
       <StackedAreaChart />
       <StackedBarChart />
       <CustomShapeBarChart />
+      <BrushBarChart />
     </>
   );
 }
