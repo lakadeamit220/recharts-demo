@@ -1,4 +1,5 @@
 import "./App.css";
+import BiaxialBarChart from "./components/BiaxialBarChart";
 import BrushBarChart from "./components/BrushBarChart";
 import CustomShapeBarChart from "./components/CustomShapeBarChart";
 import PositiveAndNegativeBarChart from "./components/PositiveAndNegativeBarChart";
@@ -19,6 +20,7 @@ function App() {
       <CustomShapeBarChart />
       <BrushBarChart />
       <PositiveAndNegativeBarChart />
+      <BiaxialBarChart />
     </>
   );
 }
