@@ -1,6 +1,7 @@
 import "./App.css";
 import BrushBarChart from "./components/BrushBarChart";
 import CustomShapeBarChart from "./components/CustomShapeBarChart";
+import PositiveAndNegativeBarChart from "./components/PositiveAndNegativeBarChart";
 import SimpleAreaChart from "./components/SimpleAreaChart";
 import SimpleBarChart from "./components/SimpleBarChart";
 import SimpleLineChart from "./components/SimpleLineChart";
@@ -17,6 +18,7 @@ function App() {
       <StackedBarChart />
       <CustomShapeBarChart />
       <BrushBarChart />
+      <PositiveAndNegativeBarChart />
     </>
   );
 }
