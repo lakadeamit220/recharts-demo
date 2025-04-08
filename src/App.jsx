@@ -3,6 +3,7 @@ import BiaxialBarChart from "./components/BiaxialBarChart";
 import BrushBarChart from "./components/BrushBarChart";
 import CustomShapeBarChart from "./components/CustomShapeBarChart";
 import PositiveAndNegativeBarChart from "./components/PositiveAndNegativeBarChart";
+import ScatterAndLineOfBestFit from "./components/ScatterAndLineOfBestFit";
 import SimpleAreaChart from "./components/SimpleAreaChart";
 import SimpleBarChart from "./components/SimpleBarChart";
 import SimpleLineChart from "./components/SimpleLineChart";
@@ -21,6 +22,7 @@ function App() {
       <BrushBarChart />
       <PositiveAndNegativeBarChart />
       <BiaxialBarChart />
+      <ScatterAndLineOfBestFit />
     </>
   );
 }
